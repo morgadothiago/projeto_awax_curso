@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+.container {
+  width: 100vw;
+  background-color: red;
+  overflow: hidden;
+}
+.content {
+  max-width: 1080px;
+  display: flex;
+  background-color: green;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.content nav {
+  background-color: blue;
+  width: 20%;
+  min-height: 100vh;
+}
